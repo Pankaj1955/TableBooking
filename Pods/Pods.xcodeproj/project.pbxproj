@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EC63D035D22BF4F06DD5E6DE7A8BB6 /* JNSegmentedCllectionViewDelegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25EA242CF0B1D59145AC1D570B72A5 /* JNSegmentedCllectionViewDelegate+DataSource.swift */; };
+		0609631EC6489936F7B87B4EC68F069C /* Pods-BookingDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6D6C1DEC4836C914C41B1033F0FA21 /* Pods-BookingDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D040F989BF2F57BFEC6B56D18CB474C /* JNSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CDA6BD98C059193C6A66E6E9EF4C54 /* JNSegmentedControl-dummy.m */; };
+		2D833715A893F5D289EE41609C09E6DA /* JNSegmentedControlCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F7DF172F6896BAD7644F0E5B8B4F6 /* JNSegmentedControlCollectionViewCell.swift */; };
+		58370CA0F602A2B269D67FF904366792 /* JNSegmentedControlCollectionViewCellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B454A444E544494EDBF3F24A98B97C /* JNSegmentedControlCollectionViewCellRepresentable.swift */; };
+		5DC5B0DB8097B780E94D607E66EE7047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		755EED145345574A9849D4D643654A7C /* Pods-BookingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64371FFA999CDBD1C2BE592B3FB245A7 /* Pods-BookingDemo-dummy.m */; };
+		7A56AA1E965DACC757B6E5C9FEE06BE4 /* JNSegmentedControlCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED9A7FE145F9D4ACFB6FC349E0EAE86E /* JNSegmentedControlCollectionViewCell.xib */; };
+		882ACF47F86DE4DBE90CF78EA795B61D /* JNSegmentedCollectionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4B6AA04FEEC78E7A23A181FF5C099 /* JNSegmentedCollectionOptions.swift */; };
+		90BE8BAE74F141E80A723D02FF50753F /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0782FA102407C023FC9748FEBBD29402 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920CD3209329F4C63781C6FBE1584231 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8ADD9E0DC00F7981893C7BBDAFCAC /* SwiftyJSON.swift */; };
+		9231414D75CDF93EB0B505BD095E4BBD /* JNSegmentedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC779677BF7D6636EFDAF6CFB1F06EE6 /* JNSegmentedCollectionView.swift */; };
+		A71FAF0D2118F379BF61A98F481E8298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B93FE9BDBD643A9BBF3E297A3E626C73 /* JNSegmentedCollectionSupplementaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7884BC768BC4B2CBFFDC1AD21D2D52E2 /* JNSegmentedCollectionSupplementaryHeaderView.swift */; };
+		C94F2064463F8D8A93F9A8A37511D04E /* JNSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A53A4EB48648F1D40AA2E173CAE350C /* JNSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE31BEC56E11A9778680BC8F64BC7CD5 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A67689E1E3B09112C3EB8F8FF151088C /* SwiftyJSON-dummy.m */; };
+		FF8A7CDF61DBF6009DE729AC54DC29D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FA03E4A30753F4AB2201C0087391A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78612D679D289B5A5D1F753E0A04CDB;
+			remoteInfo = SwiftyJSON;
+		};
+		8A57D0ED09C49FD41FA72FF173C4482F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBF9C7AB7E58C85CE510EDA5700D656;
+			remoteInfo = JNSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0782FA102407C023FC9748FEBBD29402 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		124766F8F9705BA4BCD19916653C64B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B454A444E544494EDBF3F24A98B97C /* JNSegmentedControlCollectionViewCellRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JNSegmentedControlCollectionViewCellRepresentable.swift; path = JNSegmentedControl/Classes/JNSegmentedCollectionView/CollectionViewCell/JNSegmentedControlCollectionViewCellRepresentable.swift; sourceTree = "<group>"; };
+		1FCAA13B565C3E6388E3AB035DCA8DAF /* Pods-BookingDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingDemo-frameworks.sh"; sourceTree = "<group>"; };
+		2282CA4FD19897E41FDCB029C48B8402 /* Pods-BookingDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingDemo-resources.sh"; sourceTree = "<group>"; };
+		2F7439A746B1962C77492B22F618060F /* JNSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JNSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		3D37A9E02B0C72FB702D9B0E924E4A20 /* Pods-BookingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CC7819CD27B347B9BF375CC26EB9B3D /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		64371FFA999CDBD1C2BE592B3FB245A7 /* Pods-BookingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookingDemo-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A53A4EB48648F1D40AA2E173CAE350C /* JNSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JNSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		6E25EA242CF0B1D59145AC1D570B72A5 /* JNSegmentedCllectionViewDelegate+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JNSegmentedCllectionViewDelegate+DataSource.swift"; path = "JNSegmentedControl/Classes/JNSegmentedCollectionView/Extensions/JNSegmentedCllectionViewDelegate+DataSource.swift"; sourceTree = "<group>"; };
+		7884BC768BC4B2CBFFDC1AD21D2D52E2 /* JNSegmentedCollectionSupplementaryHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JNSegmentedCollectionSupplementaryHeaderView.swift; path = JNSegmentedControl/Classes/JNSegmentedCollectionView/SupplementaryHeaderView/JNSegmentedCollectionSupplementaryHeaderView.swift; sourceTree = "<group>"; };
+		809CBE5C12EBB50B79FF869D60D3EF54 /* Pods_BookingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookingDemo.framework; path = "Pods-BookingDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4B6AA04FEEC78E7A23A181FF5C099 /* JNSegmentedCollectionOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JNSegmentedCollectionOptions.swift; path = JNSegmentedControl/Classes/JNSegmentedCollectionOptions/JNSegmentedCollectionOptions.swift; sourceTree = "<group>"; };
+		918F248CE9768DCDA8449EAD0F27C67C /* JNSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JNSegmentedControl.framework; path = JNSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F8ADD9E0DC00F7981893C7BBDAFCAC /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		956F7DF172F6896BAD7644F0E5B8B4F6 /* JNSegmentedControlCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JNSegmentedControlCollectionViewCell.swift; path = JNSegmentedControl/Classes/JNSegmentedCollectionView/CollectionViewCell/JNSegmentedControlCollectionViewCell.swift; sourceTree = "<group>"; };
+		978BBC9B832EE416ECE54EA0C9B02E3D /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2E57456A0CF17798F04AA3EBA02816 /* Pods-BookingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4F8917742BF13A1B3B10F55A8DF19F3 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		A67689E1E3B09112C3EB8F8FF151088C /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A8F92EF18C875B2C7D7D7CFACC44A811 /* Pods-BookingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ABB6FA4FB0E7D13DD9B73DC78D4D04E9 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		B9E166B361E160854AB549FB8B7908C5 /* JNSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JNSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		BC779677BF7D6636EFDAF6CFB1F06EE6 /* JNSegmentedCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JNSegmentedCollectionView.swift; path = JNSegmentedControl/Classes/JNSegmentedCollectionView/JNSegmentedCollectionView.swift; sourceTree = "<group>"; };
+		C1CDA6BD98C059193C6A66E6E9EF4C54 /* JNSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JNSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		C8A533750C7C02959FEC9590E676A662 /* Pods-BookingDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookingDemo.modulemap"; sourceTree = "<group>"; };
+		C93EDFB5BFA4DC17B857546F9A996881 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6D6C1DEC4836C914C41B1033F0FA21 /* Pods-BookingDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookingDemo-umbrella.h"; sourceTree = "<group>"; };
+		DECE1841710D51B096A034F1F2E01A41 /* Pods-BookingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9A7FE145F9D4ACFB6FC349E0EAE86E /* JNSegmentedControlCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JNSegmentedControlCollectionViewCell.xib; path = JNSegmentedControl/Classes/JNSegmentedCollectionView/CollectionViewCell/JNSegmentedControlCollectionViewCell.xib; sourceTree = "<group>"; };
+		F46280700B983A1FDCBD198E7F6C9F0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F685A0F33C2FEFCEC442BB2ED4FD1C81 /* JNSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JNSegmentedControl.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AEABF42A5F88EE21D8F348B9B4ECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC5B0DB8097B780E94D607E66EE7047 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240653E3F23043DC0CC6849D546D3F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71FAF0D2118F379BF61A98F481E8298 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A859A9B71A519627DA34909A4D0803DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A7CDF61DBF6009DE729AC54DC29D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02599C0BC6A4DCD1684961CDAEB0A76F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93EDFB5BFA4DC17B857546F9A996881 /* Info.plist */,
+				F685A0F33C2FEFCEC442BB2ED4FD1C81 /* JNSegmentedControl.modulemap */,
+				B9E166B361E160854AB549FB8B7908C5 /* JNSegmentedControl.xcconfig */,
+				C1CDA6BD98C059193C6A66E6E9EF4C54 /* JNSegmentedControl-dummy.m */,
+				2F7439A746B1962C77492B22F618060F /* JNSegmentedControl-prefix.pch */,
+				6A53A4EB48648F1D40AA2E173CAE350C /* JNSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JNSegmentedControl";
+			sourceTree = "<group>";
+		};
+		0D3ECEAB13AA4F07AACBC078A409F5BD /* Pods-BookingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				124766F8F9705BA4BCD19916653C64B0 /* Info.plist */,
+				C8A533750C7C02959FEC9590E676A662 /* Pods-BookingDemo.modulemap */,
+				9E2E57456A0CF17798F04AA3EBA02816 /* Pods-BookingDemo-acknowledgements.markdown */,
+				3D37A9E02B0C72FB702D9B0E924E4A20 /* Pods-BookingDemo-acknowledgements.plist */,
+				64371FFA999CDBD1C2BE592B3FB245A7 /* Pods-BookingDemo-dummy.m */,
+				1FCAA13B565C3E6388E3AB035DCA8DAF /* Pods-BookingDemo-frameworks.sh */,
+				2282CA4FD19897E41FDCB029C48B8402 /* Pods-BookingDemo-resources.sh */,
+				DD6D6C1DEC4836C914C41B1033F0FA21 /* Pods-BookingDemo-umbrella.h */,
+				DECE1841710D51B096A034F1F2E01A41 /* Pods-BookingDemo.debug.xcconfig */,
+				A8F92EF18C875B2C7D7D7CFACC44A811 /* Pods-BookingDemo.release.xcconfig */,
+			);
+			name = "Pods-BookingDemo";
+			path = "Target Support Files/Pods-BookingDemo";
+			sourceTree = "<group>";
+		};
+		2AC7F5E15819D45C7F5C768FD0629ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAD54582C88F9DDBE0B45443E335EB17 /* JNSegmentedControl */,
+				E59FBC7D9584141627F67FCA0F76D1A4 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DE62C906A65FF82E0AFE3AA04C21DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918F248CE9768DCDA8449EAD0F27C67C /* JNSegmentedControl.framework */,
+				809CBE5C12EBB50B79FF869D60D3EF54 /* Pods_BookingDemo.framework */,
+				978BBC9B832EE416ECE54EA0C9B02E3D /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59924CB4881D80FC29286EC9A73A2B96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46280700B983A1FDCBD198E7F6C9F0B /* Info.plist */,
+				4CC7819CD27B347B9BF375CC26EB9B3D /* SwiftyJSON.modulemap */,
+				ABB6FA4FB0E7D13DD9B73DC78D4D04E9 /* SwiftyJSON.xcconfig */,
+				A67689E1E3B09112C3EB8F8FF151088C /* SwiftyJSON-dummy.m */,
+				A4F8917742BF13A1B3B10F55A8DF19F3 /* SwiftyJSON-prefix.pch */,
+				0782FA102407C023FC9748FEBBD29402 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		7D4CFF753045CAC02599036DC7976E1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A7FE145F9D4ACFB6FC349E0EAE86E /* JNSegmentedControlCollectionViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2AC7F5E15819D45C7F5C768FD0629ED1 /* Pods */,
+				4DE62C906A65FF82E0AFE3AA04C21DF3 /* Products */,
+				CEB1CE337D418F803D4AA8E0F88B025C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD54582C88F9DDBE0B45443E335EB17 /* JNSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				6E25EA242CF0B1D59145AC1D570B72A5 /* JNSegmentedCllectionViewDelegate+DataSource.swift */,
+				90D4B6AA04FEEC78E7A23A181FF5C099 /* JNSegmentedCollectionOptions.swift */,
+				7884BC768BC4B2CBFFDC1AD21D2D52E2 /* JNSegmentedCollectionSupplementaryHeaderView.swift */,
+				BC779677BF7D6636EFDAF6CFB1F06EE6 /* JNSegmentedCollectionView.swift */,
+				956F7DF172F6896BAD7644F0E5B8B4F6 /* JNSegmentedControlCollectionViewCell.swift */,
+				14B454A444E544494EDBF3F24A98B97C /* JNSegmentedControlCollectionViewCellRepresentable.swift */,
+				7D4CFF753045CAC02599036DC7976E1C /* Resources */,
+				02599C0BC6A4DCD1684961CDAEB0A76F /* Support Files */,
+			);
+			name = JNSegmentedControl;
+			path = JNSegmentedControl;
+			sourceTree = "<group>";
+		};
+		CEB1CE337D418F803D4AA8E0F88B025C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D3ECEAB13AA4F07AACBC078A409F5BD /* Pods-BookingDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E59FBC7D9584141627F67FCA0F76D1A4 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				93F8ADD9E0DC00F7981893C7BBDAFCAC /* SwiftyJSON.swift */,
+				59924CB4881D80FC29286EC9A73A2B96 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA5CB835E9B68A8EC5562A7502FD3EF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0609631EC6489936F7B87B4EC68F069C /* Pods-BookingDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37A1CF89041FD8F6C3CFC76C5D4B190 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F2064463F8D8A93F9A8A37511D04E /* JNSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52BDB9A7002CB4195E00BE382A544B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BE8BAE74F141E80A723D02FF50753F /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20387D1B564521862FB17349F9B3B629 /* Pods-BookingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2895A9B9FCFA27381A4D0AC87D71B6F7 /* Build configuration list for PBXNativeTarget "Pods-BookingDemo" */;
+			buildPhases = (
+				0362364DF0B601F813F411C292F3837B /* Sources */,
+				18AEABF42A5F88EE21D8F348B9B4ECEF /* Frameworks */,
+				DA5CB835E9B68A8EC5562A7502FD3EF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50178D859AA949600870B614B0884FD /* PBXTargetDependency */,
+				3D5EF9FBAD93B61E896891A716ED86E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-BookingDemo";
+			productName = "Pods-BookingDemo";
+			productReference = 809CBE5C12EBB50B79FF869D60D3EF54 /* Pods_BookingDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEBF9C7AB7E58C85CE510EDA5700D656 /* JNSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD7CB75A2EF1D53FAEBA694EAE643CE /* Build configuration list for PBXNativeTarget "JNSegmentedControl" */;
+			buildPhases = (
+				341A830CA76D37978F51B5BCE4C477C3 /* Sources */,
+				A859A9B71A519627DA34909A4D0803DF /* Frameworks */,
+				EF0997CF757188972FBAF389CC129FD5 /* Resources */,
+				F37A1CF89041FD8F6C3CFC76C5D4B190 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNSegmentedControl;
+			productName = JNSegmentedControl;
+			productReference = 918F248CE9768DCDA8449EAD0F27C67C /* JNSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E78612D679D289B5A5D1F753E0A04CDB /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C3B8802BA8D02A8C73C606AEA311E9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				E72186527C431619C497BC91952AF723 /* Sources */,
+				240653E3F23043DC0CC6849D546D3F81 /* Frameworks */,
+				FC52BDB9A7002CB4195E00BE382A544B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 978BBC9B832EE416ECE54EA0C9B02E3D /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4DE62C906A65FF82E0AFE3AA04C21DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEBF9C7AB7E58C85CE510EDA5700D656 /* JNSegmentedControl */,
+				20387D1B564521862FB17349F9B3B629 /* Pods-BookingDemo */,
+				E78612D679D289B5A5D1F753E0A04CDB /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0997CF757188972FBAF389CC129FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A56AA1E965DACC757B6E5C9FEE06BE4 /* JNSegmentedControlCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0362364DF0B601F813F411C292F3837B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EED145345574A9849D4D643654A7C /* Pods-BookingDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341A830CA76D37978F51B5BCE4C477C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EC63D035D22BF4F06DD5E6DE7A8BB6 /* JNSegmentedCllectionViewDelegate+DataSource.swift in Sources */,
+				882ACF47F86DE4DBE90CF78EA795B61D /* JNSegmentedCollectionOptions.swift in Sources */,
+				B93FE9BDBD643A9BBF3E297A3E626C73 /* JNSegmentedCollectionSupplementaryHeaderView.swift in Sources */,
+				9231414D75CDF93EB0B505BD095E4BBD /* JNSegmentedCollectionView.swift in Sources */,
+				0D040F989BF2F57BFEC6B56D18CB474C /* JNSegmentedControl-dummy.m in Sources */,
+				2D833715A893F5D289EE41609C09E6DA /* JNSegmentedControlCollectionViewCell.swift in Sources */,
+				58370CA0F602A2B269D67FF904366792 /* JNSegmentedControlCollectionViewCellRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72186527C431619C497BC91952AF723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31BEC56E11A9778680BC8F64BC7CD5 /* SwiftyJSON-dummy.m in Sources */,
+				920CD3209329F4C63781C6FBE1584231 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D5EF9FBAD93B61E896891A716ED86E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = E78612D679D289B5A5D1F753E0A04CDB /* SwiftyJSON */;
+			targetProxy = 0FA03E4A30753F4AB2201C0087391A91 /* PBXContainerItemProxy */;
+		};
+		A50178D859AA949600870B614B0884FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JNSegmentedControl;
+			target = DEBF9C7AB7E58C85CE510EDA5700D656 /* JNSegmentedControl */;
+			targetProxy = 8A57D0ED09C49FD41FA72FF173C4482F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0860DFF411DE6A99545257E7DECB75A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F92EF18C875B2C7D7D7CFACC44A811 /* Pods-BookingDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingDemo/Pods-BookingDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F680A0BCFA75F4815C8C577DFFEAD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E166B361E160854AB549FB8B7908C5 /* JNSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JNSegmentedControl/JNSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JNSegmentedControl/JNSegmentedControl.modulemap";
+				PRODUCT_NAME = JNSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13A95306D85E4471AB6BE665B012E60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4907F78F049CD6D5E3FF87D5E2FFDC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB6FA4FB0E7D13DD9B73DC78D4D04E9 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6559ED91E8BAB4F8238743E7A2386397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECE1841710D51B096A034F1F2E01A41 /* Pods-BookingDemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingDemo/Pods-BookingDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E8333274F4AB64785B04AB5B2A37231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A267265277AFF874F193720650775D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E166B361E160854AB549FB8B7908C5 /* JNSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JNSegmentedControl/JNSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JNSegmentedControl/JNSegmentedControl.modulemap";
+				PRODUCT_NAME = JNSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6F425F57B333B3612B49FCAC4EFE89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB6FA4FB0E7D13DD9B73DC78D4D04E9 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2895A9B9FCFA27381A4D0AC87D71B6F7 /* Build configuration list for PBXNativeTarget "Pods-BookingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6559ED91E8BAB4F8238743E7A2386397 /* Debug */,
+				0860DFF411DE6A99545257E7DECB75A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A95306D85E4471AB6BE665B012E60A /* Debug */,
+				8E8333274F4AB64785B04AB5B2A37231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD7CB75A2EF1D53FAEBA694EAE643CE /* Build configuration list for PBXNativeTarget "JNSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F680A0BCFA75F4815C8C577DFFEAD28 /* Debug */,
+				A267265277AFF874F193720650775D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C3B8802BA8D02A8C73C606AEA311E9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4907F78F049CD6D5E3FF87D5E2FFDC64 /* Debug */,
+				E6F425F57B333B3612B49FCAC4EFE89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
